@@ -1,0 +1,200 @@
+GitHub Admin
+
+GHEC: https://docs.github.com/en/github
+
+GHES: https://docs.github.com/en/enterprise-server/admin/configuration/configuring-your-enterprise/about-enterprise-configuration
+
+GHAE: https://docs.github.com/en/github-ae@latest/admin/overview/about-github-ae
+
+Enterprise, org, personal accounts and repos: https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github
+
+Org permissions: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization
+
+Roles in teams: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/giving-team-maintainer-permissions-to-an-organization-member
+
+https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility
+
+https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization#repository-access-for-each-permission-level%5C
+
+https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository
+
+https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#per-minute-rates
+
+https://github.com/orgs/github/projects/4247/views/1
+
+https://github.blog/
+
+https://github.blog/changelog
+
+https://github.com/github/safe-settings
+
+https://opensource.guide/
+
+https://octokit.github.io/rest.js/v18
+
+REST API:
+https://docs.github.com/en/rest/overview/resources-in-the-rest-api#root-endpoint
+
+GraphQL API:
+
+https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#the-graphql-endpoint
+
+Tokens:
+- https://github.blog/changelog/2021-03-31-authentication-token-format-updates-are-generally-available/
+
+- https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/
+
+Personal Access Token (PAT):
+- https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+- https://docs.github.com/en/developers/apps/scopes-for-oauth-apps
+
+OAuth:
+- https://docs.github.com/en/developers/apps/creating-an-oauth-app
+
+- https://docs.github.com/en/developers/apps/authorizing-oauth-apps
+
+GitHub Actions:
+
+- https://docs.github.com/en/developers/apps/differences-between-github-apps-and-oauth-apps
+
+- https://docs.github.com/en/actions/reference/authentication-in-a-workflow
+
+- https://docs.github.com/en/actions/learn-github-actions/security-hardening-for-github-actions#considering-cross-repository-access
+
+- https://docs.github.com/en/developers/apps/identifying-and-authorizing-users-for-github-apps
+
+GitHub Apps:
+
+- https://docs.github.com/en/developers/apps/creating-a-github-app
+
+- https://docs.github.com/en/developers/apps/authenticating-with-github-apps
+
+- https://docs.github.com/en/rest/reference/apps#create-an-installation-access-token-for-an-app
+- https://github.com/marketplace/actions/action-github-app-token
+
+GitHub Docs - Enforcing Actions policies in your enterprise: https://docs.github.com/en/github/setting-up-and-managing-your-enterprise/setting-policies-for-organizations-in-your-enterprise-account/enforcing-github-actions-policies-in-your-enterprise-account 
+
+GitHub Docs - Enforcing Actions policies in your organizations: https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization 
+
+GitHub Docs - Enforcing Actions policies in your repositories: https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/disabling-or-limiting-github-actions-for-a-repository 
+
+Shared workflows docs: https://docs.github.com/en/actions/learn-github-actions/sharing-workflows-with-your-organization
+
+https://cli.github.com/
+
+https://desktop.github.com/
+
+https://skills.github.com/
+
+https://github.blog/2022-06-09-introducing-entitlements-githubs-open-source-identity-and-access-management-solution/
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+https://git-scm.com/docs/git-rebase
+http://git-school.github.io/visualizing-git/
+
+https://learn.microsoft.com/en-us/users/githubtraining/collections/mom7u1gzjdxw03
+https://learn.microsoft.com/en-us/users/githubtraining/collections/n5p4a5z7keznp5
+https://learn.microsoft.com/en-us/users/githubtraining/collections/rqymc6yw8q5rey
+
+GitHub Developer
+
+https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class
+
+Actions
+
+GitHub Actions workflow syntax: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions 
+
+
+GitHub Docs - Workflow syntax for events: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on 
+GitHub Docs - Webhook events: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#webhook-events 
+GitHub Docs - Webhook event payloads: https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads 
+
+See this page to get familiar with the cron syntax: https://crontab.guru/ 
+
+
+GitHub Docs - Workflow syntax for scheduled events: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule 
+GitHub Docs - Scheduled events: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule 
+
+workflow_dispatch 
+Trigger a workflow via the GUI, the GitHub API, and/or the GitHub CLI, see https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow 
+You can define a set of input parameters that can be accessed by the workflow, see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_dispatch 
+Use this event to trigger a specific workflow. To trigger multiple workflows manually, see repository_dispatch
+
+repository_dispatch 
+Trigger a workflow, or multiple workflows in a repository, using the GitHub API
+You can define a custom API payload that can be accessed by the workflow, see https://docs.github.com/en/rest/reference/repos#create-a-repository-dispatch-event 
+
+GitHub Docs - Manual events: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#manual-events 
+GitHub Docs - workflow_dispatch API: https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event 
+GitHub CLI - trigger a workflow_dispatch event: https://cli.github.com/manual/gh_workflow_run 
+
+GitHub Docs - Workflow syntax for runners: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on 
+GitHub Docs - Using GitHub-hosted runners: https://docs.github.com/en/actions/using-github-hosted-runners
+GitHub Docs - Using self-hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners 
+
+GitHub Hosted Runners:
+The IP addresses change frequently, for a list of (current) IPs, see https://api.github.com/meta (see “actions” key)
+
+GitHub Docs - About GitHub-hosted runners: https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners 
+GitHub Docs - Customizing GitHub-hosted runners: https://docs.github.com/en/actions/using-github-hosted-runners/customizing-github-hosted-runners 
+List of pre-installed software on GitHub-hosted runners: https://github.com/actions/virtual-environments 
+GitHub Docs - Billing for GitHub Actions: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions
+GitHub Docs - Usage limits for GitHub-hosted runners: https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration#usage-limits 
+
+GitHub Docs - About self-hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners 
+GitHub Docs - Self-hosted runners usage limits: https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration#usage-limits 
+GitHub Docs - Adding self-hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners 
+GitHub Docs - Using a proxy with self-hosted runners: https://docs.github.com/en/actions/hosting-your-own-runners/using-a-proxy-server-with-self-hosted-runners 
+GitHub Docs - Using self-hosted runners in a workflow: https://docs.github.com/en/actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow 
+GitHub Docs - Manage access to runners using groups: https://docs.github.com/en/actions/hosting-your-own-runners/managing-access-to-self-hosted-runners-using-groups 
+
+GitHub Docs - Workflow syntax for steps: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idsteps 
+GitHub Docs - Essential features of GitHub Actions: https://docs.github.com/en/actions/learn-github-actions/essential-features-of-github-actions 
+
+Example permissions syntax: https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token/
+
+Workflow syntax: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+
+Functions: https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#format
+
+Environment docs - https://docs.github.com/en/actions/reference/environments
+Workflow syntax - https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idenvironment
+GitHub Docs - Deployment API: https://developer.github.com/v3/repos/deployments/
+
+GitHub Docs - Secrets: https://docs.github.com/en/actions/reference/encrypted-secrets 
+Environment secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-an-environment
+Repository secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
+Organization secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-an-organization 
+
+GitHub Docs - Secrets: https://docs.github.com/en/actions/reference/encrypted-secrets 
+Environment secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-an-environment
+Repository secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
+Organization secrets: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-an-organization 
+
+GITHUB_TOKEN: https://docs.github.com/en/actions/reference/authentication-in-a-workflow 
+
+GitHub Docs - Caching dependencies to speed up workflows: https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows 
+GitHub Action - actions/cache: https://github.com/actions/cache 
+
+Creating Actions: https://docs.github.com/en/actions/creating-actions 
+Metadata syntax: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
+
+JavaScript/Typescript Actions: https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
+https://github.com/ActionsDesk/ps-typescript-template
+
+Docker Action: https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
+Composite run step: https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action 
+
+REST libraries: https://docs.github.com/en/rest/overview/libraries 
+GraphQL API: https://docs.github.com/en/graphql 
+JS Octokit documentation: https://octokit.github.io/rest.js/v18 
+
+GitHub-hosted runners docs: https://docs.github.com/en/actions/using-github-hosted-runners 
+GitHub-hosted runner virtual environments: https://github.com/actions/virtual-environments 
+Self-hosted runner docs: https://docs.github.com/en/actions/hosting-your-own-runners 
+
+https://github.com/github/super-linter 
+
+
+
